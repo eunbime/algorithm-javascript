@@ -1,11 +1,11 @@
-// https://school.programmers.co.kr/learn/courses/30/lessons/142086
-
 function solution(s) {
+  let arr = [];
   const hash = {};
 
-  return [...s].map((v, i) => {
-    let result = hash[v] !== undefined ? i - hash[v] : -1;
+  [...s].forEach((v, i) => {
+    hash[v] !== undefined ? arr.push(i - hash[v]) : arr.push(-1);
     hash[v] = i;
-    return result;
   });
+
+  return arr;
 }
