@@ -1,4 +1,4 @@
-## [약수와 개수의 덧셈] (https://school.programmers.co.kr/learn/courses/30/lessons/77884)
+## [약수와 개수의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/77884)
 
 ### 문제 설명
 
